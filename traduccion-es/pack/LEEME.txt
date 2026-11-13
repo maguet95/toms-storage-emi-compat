@@ -1,0 +1,3 @@
+Tom's Simple Storage en español (para Living, Minecraft 1.21.11).
+Traducción de Maguet a partir del texto en inglés de Tom's Simple Storage, de tom5454 (licencia MIT).
+Cubre los 212 textos del mod (versión 2.8.0) en todas las variantes de español del juego.

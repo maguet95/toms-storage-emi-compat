@@ -42,3 +42,4 @@ replay_*.log
 # Jars de Tom's Storage y PF-EMI usados solo para compilar: no son nuestros para redistribuir.
 # Descárgalos de Modrinth y ponlos aquí (ver README).
 libs/
+__pycache__/
