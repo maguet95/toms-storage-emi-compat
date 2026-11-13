@@ -16,7 +16,18 @@ dependencies {
 	modCompileOnly files('libs/PF-EMI-1.21.11.jar')
 }
 
+// Variante para Living (./gradlew build -Pliving): la misma, más la traducción de Tom's al español DENTRO del jar.
+// Así llega con el mod y no depende de que el launcher active un paquete de texturas. Para compartir, la normal.
+def living = project.hasProperty('living')
+if (living) {
+	version = "${project.version}+living"
+	base.archivesName = 'toms-storage-emi-compat-living'
+}
+
 processResources {
+	if (living) {
+		from('traduccion-es/pack/assets') { into 'assets' }
+	}
 	def version = project.version
 	inputs.property "version", version
 	filesMatching("fabric.mod.json") {

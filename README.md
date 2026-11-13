@@ -18,6 +18,11 @@ corre `./gradlew build`.
 Basado en el código de integración con EMI de Tom's Storage, de tom5454, bajo licencia MIT (`original/LICENSE`).
 El original está en `original/` como referencia. Este mod también es MIT.
 
+## Variante para Living (traducción dentro del jar)
+`./gradlew build -Pliving` produce `toms-storage-emi-compat-living-<versión>+living.jar`: el mismo mod más la traducción al
+español dentro. Así llega con el mod y no depende de que el launcher active un paquete de texturas. Mismo id de mod que la
+normal, para que nunca convivan. Para compartir con otros, la normal (sin traducción).
+
 ## Traducción al español (paquete de recursos aparte)
 `traduccion-es/` tiene la traducción de Tom's Simple Storage al español: los 212 textos de la versión 2.8.0, en todas
 las variantes de español del juego. Va como **paquete de recursos**, no dentro del mod, para no tapar otras
