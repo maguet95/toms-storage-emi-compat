@@ -1,0 +1,21 @@
+{
+	"schemaVersion": 1,
+	"id": "tomsstorageemicompat",
+	"version": "${version}",
+	"name": "Tom's Storage EMI Compat",
+	"description": "Devuelve a Tom's Simple Storage (Fabric) la integración con EMI que su versión Fabric deja fuera: el botón + de EMI llena la terminal de crafteo sacando los ingredientes del almacenamiento.",
+	"authors": ["Maguet"],
+	"contact": {},
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"emi": ["com.maguet.tomsemi.TomsEmiPlugin"]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.0",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"toms_storage": ">=2.8.0",
+		"emi": "*"
+	}
+}
