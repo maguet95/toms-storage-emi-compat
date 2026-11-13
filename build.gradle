@@ -20,8 +20,7 @@ dependencies {
 // Así llega con el mod y no depende de que el launcher active un paquete de texturas. Para compartir, la normal.
 def living = project.hasProperty('living')
 if (living) {
-	version = "${project.version}+living"
-	base.archivesName = 'toms-storage-emi-compat-living'
+	base.archivesName = 'toms-storage-emi-compat-living-traduccion-es'
 }
 
 processResources {

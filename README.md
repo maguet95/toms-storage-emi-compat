@@ -19,7 +19,7 @@ Basado en el código de integración con EMI de Tom's Storage, de tom5454, bajo 
 El original está en `original/` como referencia. Este mod también es MIT.
 
 ## Variante para Living (traducción dentro del jar)
-`./gradlew build -Pliving` produce `toms-storage-emi-compat-living-<versión>+living.jar`: el mismo mod más la traducción al
+`./gradlew build -Pliving` produce `toms-storage-emi-compat-living-traduccion-es-<versión>.jar`: el mismo mod más la traducción al
 español dentro. Así llega con el mod y no depende de que el launcher active un paquete de texturas. Mismo id de mod que la
 normal, para que nunca convivan. Para compartir con otros, la normal (sin traducción).
 
